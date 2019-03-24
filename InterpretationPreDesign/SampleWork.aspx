@@ -11,9 +11,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <br /><b>Тип источника данных: </b><asp:Label sourcetype="Sourcetype" runat="server"></asp:Label>
-            <%--<%foreach  (Source s in )%>--%>
-            <p class="lead">Имя источника данных: </p>
+            <%= ShowSourcesHtml() %>
         </div>
     </form>
 </body>
